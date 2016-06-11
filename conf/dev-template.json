@@ -1,0 +1,19 @@
+{
+  "aws": {
+    "credentials": {
+      "access_key_id": "YOUR ACCESS KEY ID",
+      "secret_access_key": "YOUR SECRET ACCESS KEY"
+    },
+    "config": {
+      "region": "YOUR REGION",
+      "output": "OUTPUT FORMAT (json|text|table)"
+    },
+    "emr": {
+      "cluster-name": "SampleCluster", 
+      "release-label": "emr-4.7.0", 
+      "key-name": "YOUR KEY NAME OF PEM FILE.",
+      "instance-type": "m3.xlarge",
+      "instance-count": "3" 
+    }
+  }
+}
